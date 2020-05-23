@@ -1,1 +1,23 @@
 @import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+@import "navbar";
+
+div {
+    display: block;
+}
+
+.flat-card-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.flat-card-content {
+    padding: 24px;
+    background-color: #F8F9FA;
+  }
+.flat-card-actions {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 16px 24px;
+  }
