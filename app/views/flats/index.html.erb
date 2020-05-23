@@ -10,7 +10,7 @@
             <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search" aria-label="Search" value="">
             <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Search</button>
           </form>
-          <a class="btn btn-outline-primary my-2 my-sm-0 ml-2" href="/flats/new">Add Flat</a>
+          <a class="btn btn-outline-primary my-2 my-sm-2 ml-2" href="/flats/new">Add Flat</a>
         </div>
       </div>
     </nav>
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="flat-card-actions">
-            <a href="/flats/3358">More info</a>
+            <%= link_to 'More Info', flat %>
             <a class="ml-3 text-warning" href="/flats/3358/edit">Edit</a>
             <a data-confirm="Are you sure?" class="ml-3 text-danger" rel="nofollow" data-method="delete" href="/flats/3358">Remove</a>
           </div>
@@ -82,6 +82,6 @@
     <% end %>
 
 
-
-
+<!--
 <%= link_to 'New Flat', new_flat_path %>
+-->
